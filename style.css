@@ -1,0 +1,70 @@
+/* General Reset */
+body, h1, input, select, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Title Styling */
+  .container h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Converter Inputs */
+  .converter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .converter input, 
+  .converter select, 
+  .converter button {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button Styling */
+  .converter button {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+  }
+  
+  .converter button:hover {
+    background: #45a049;
+  }
+  
+  /* Result Section */
+  .result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #555555;
+  }
